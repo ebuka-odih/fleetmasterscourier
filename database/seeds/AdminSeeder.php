@@ -14,15 +14,15 @@ class AdminSeeder extends Seeder
      */
     public function run()
     {
-        $admin = User::where('email', '=', 'admin@bayshipment.com')->first();
+        $admin = User::where('email', '=', 'admin@fleetmasterscourier.com')->first();
         if($admin === null){
             DB::table('users')->insert([
                 'name' => 'Admin',
                 'status' => 1,
                 'admin' => 1,
-                'email' => 'admin@bayshipment.com',
+                'email' => 'admin@fleetmasterscourier.com',
                 'email_verified_at' => \Carbon\Carbon::now(),
-                'password' => Hash::make('BAYSHIPMENT'),
+                'password' => Hash::make('12345FLEERT'),
             ]);
         }
     }
