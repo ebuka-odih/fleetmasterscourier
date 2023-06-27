@@ -88,7 +88,7 @@
 
     <meta property="og:site_name" content="CourierPlus Nigeria" />
     <meta name="twitter:title" content="CourierPlus Nigeria">
-    <meta property="og:url" content="https://www.bayshipment.com/" />
+    <meta property="og:url" content="https://www.{{ env('APP_NAME') }}.com/" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Home" />
     <meta property="og:description" content="Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment." />
@@ -347,7 +347,7 @@
                         <div class="container">
                             <div class="logo logo-desk">
                                 <a href="{{ route('index') }}" title="CourierPlus Nigeria">
-                                    <h4 style="font-weight: bolder; margin-top: 10px; color: #d18585">BayShipment</h4>
+                                    <h4 style="font-weight: bolder; margin-top: 10px; color: #d18585">{{ env('APP_NAME') }}</h4>
                                 </a>
                             </div>
                             <div class="mob-menu-toggle"><span></span></div>
@@ -366,7 +366,7 @@
 
 
                             <div class="et-el-icon extra-small " style="color:#fd8c40"><span class="el-icon far fa-envelope-open animate-false"></span></div>
-                            <span class="et-gap-inline et-clearfix" style="width:4px"></span><span style="color:#ffffff;font-size:16px;line-height:24px">Email: info@bayshipment.com</span>
+                            <span class="et-gap-inline et-clearfix" style="width:4px"></span><span style="color:#ffffff;font-size:16px;line-height:24px">Email: info@fleetmasterscourier.com</span>
                         </div>
                         <a class="top-button" href="#track">Track Now</a>
 
@@ -381,7 +381,7 @@
                             <a href="{{ route('index') }}" title="CourierPlus Nigeria">
 {{--                                <img class="normal-logo" style="max-width:250px;max-height:89px;" src="wp-content/uploads/2021/06/stickercourier-logo.png" alt="CourierPlus Nigeria">--}}
 {{--                                <img class="sticky-logo" style="max-width:250px;max-height:89px;margin-top:-44.5px;margin-left:-125px" src="wp-content/uploads/2021/06/stickercourier-logo.png" alt="CourierPlus Nigeria">--}}
-                            <h3 style="font-weight: bolder; margin-top: 30px; color: #d18585">BayShipment</h3>
+                            <h3 style="font-weight: bolder; margin-top: 30px; color: #d18585">{{ env('APP_NAME') }}</h3>
                             </a>
                         </div>
 
@@ -430,7 +430,7 @@
                                 <div class="wpb_wrapper">
                                     <div class="wpb_text_column wpb_content_element  vc_custom_1622810895611 text-align-right text1023-align-left">
                                         <div class="wpb_wrapper">
-                                            <p style="color: #bdbdbd;">BayShipment</p>
+                                            <p style="color: #bdbdbd;">{{ env('APP_NAME') }}</p>
                                         </div>
                                     </div>
                                 </div>
