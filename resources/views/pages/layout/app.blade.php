@@ -318,22 +318,15 @@
 
 
         <nav class="mob-menu et-clearfix">
-            <ul id="mob-header-menu" class="menu"><li id="menu-item-12453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-3389 current_page_item menu-item-12453"><a href="index.html" aria-current="page"><span class="mi"></span><span class="txt">Home</span><span class="mi fa fa-angle-down"></span></a></li>
+            <ul id="mob-header-menu" class="menu">
+                <li id="menu-item-12453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-3389 current_page_item menu-item-12453"><a href="{{ route('index') }}" aria-current="page"><span class="mi"></span><span class="txt">Home</span><span class="mi fa fa-angle-down"></span></a></li>
                 <li id="menu-item-14131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14131"><a href="{{ route('about') }}"><span class="mi"></span><span class="txt">About us</span><span class="mi fa fa-angle-down"></span></a>
                 </li>
-                <li id="menu-item-14020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14020"><a href="{{ route('service') }}"><span class="mi"></span><span class="txt">Services</span><span class="mi fa fa-angle-down"></span></a>
+                <li id="menu-item-14020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14020"><a href="{{ route('service') }}"><span class="mi"></span><span class="txt">Services</span><span class="mi fa fa-angle-down"></span></a></li>
 
-                </li>
-                <li id="menu-item-14014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14014"><a href="blog/index.html"><span class="mi"></span><span class="txt">News / updates</span><span class="mi fa fa-angle-down"></span></a></li>
-                <li id="menu-item-14019" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14019"><a href="partners/index.html"><span class="mi"></span><span class="txt">Partners</span><span class="mi fa fa-angle-down"></span></a>
-                    <ul class="sub-menu">
-                        <li id="menu-item-14144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14144"><a href="partners/agent/index.html"><span class="mi"></span><span class="txt">Agent</span><span class="mi fa fa-angle-down"></span></a></li>
-                        <li id="menu-item-14143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14143"><a href="partners/franchise/index.html"><span class="mi"></span><span class="txt">Franchise</span><span class="mi fa fa-angle-down"></span></a></li>
-                    </ul>
-                </li>
-                <li id="menu-item-14165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14165"><a href="career/index.html"><span class="mi"></span><span class="txt">Career</span><span class="mi fa fa-angle-down"></span></a></li>
-                <li id="menu-item-14016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14016"><a href="contact-us/index.html"><span class="mi"></span><span class="txt">Contact us</span><span class="mi fa fa-angle-down"></span></a></li>
-            </ul>																	</nav>
+                <li id="menu-item-14016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14016"><a href="{{ route('contact') }}"><span class="mi"></span><span class="txt">Contact us</span><span class="mi fa fa-angle-down"></span></a></li>
+            </ul>
+        </nav>
 
     </div>
 
